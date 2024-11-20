@@ -6,13 +6,13 @@
   "success_url": "/",
 
   "env": {
-    "SESSION_ID": {
+    "SESSION_ID": "https://github.com/ASITHA-MD/ASITHA-MD-V2?tab=readme-ov-file"
       "description": "Put the session-id here.",
       "required": true
     }  
 },
 
-     "buildpacks": [
+     "buildpacks":
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
